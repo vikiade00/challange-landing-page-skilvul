@@ -1,0 +1,136 @@
+/* Tambahkan kode CSS kalian di file ini */
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+  border-bottom: #51515141 1px solid;
+}
+.left-navbar {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 8px;
+}
+.nav-menu ul {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+.nav-menu a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #515151;
+  font-size: 15px;
+}
+
+.nav-menu a:hover {
+  color: #2993d5;
+}
+.nav-brand {
+  background-color: aliceblue;
+  height: 0px;
+  margin-top: -48px;
+}
+.nav-profil {
+  color: #2993d5;
+  margin-top: -10px;
+  display: flex;
+  gap: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 50px;
+}
+
+.btn-sign-up {
+  background-color: #1c79f2;
+  border: transparent;
+  border-radius: 8px;
+  padding: 5px 20px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.btn-sign-in {
+  padding-top: 5px;
+  border: 1.5px solid #1c79f2;
+  border-radius: 8px;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+/* AKHIR NAVBAR */
+
+/* LANDING-PAGE */
+.landing-page {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  margin: 120px 3%;
+  gap: 180px;
+}
+
+.text-landing-page h1 {
+  color: #2993d5;
+}
+
+.text-landing-page p {
+  color: #575656;
+  line-height: 30px;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.text-landing-page a {
+  background-color: #1c79f2;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+/* AKHIR LANDING-PAGE */
+
+/* form */
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 0.5px solid gainsboro;
+}
+#submit-form {
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  margin: 0 30%;
+  padding: 30px;
+  border-radius: 10px;
+}
+.form h1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #1c79f2;
+}
+#submit-form {
+  margin-top: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* akhir form */
+
+/* footer */
+footer {
+  margin-top: 100px;
+  padding: 10px 0;
+  background-color: #1c79f2;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #ffff;
+}
+
+/* footer */
